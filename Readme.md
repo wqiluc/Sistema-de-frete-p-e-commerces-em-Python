@@ -10,7 +10,9 @@ Ideal para integração em sistemas: e-commerce, ERPs e marketplaces.
 - Regras configuráveis por região e faixa de peso.
 - Código simples, tudo em um único arquivo: `FreteEcommerce.py`.
 
+---
 
+**💻 Tecnologias Utilizadas**:
 <div align="center">
 <div style="text-align: center;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="110" style="margin: 0 30px;">
