@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regiões de Entrega🇧🇷</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="regioes">
+        <header>
+            <img src="{{url_for('static', filename='assets/fretelogo.jpeg')}}" alt="logo">
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="peso.html">Peso dos produtos</a>
+                <a href="regioes.html">Preços</a>
+            </nav>
+            <div class="carrinho">🛒</div>
+        </header>
+        
+        <br>
+
+        <div text class="seleçao-da-região">
+            <h1>Regiões de Entrega - Brasil🇧🇷</h1>
+            <p>Confira as regiões atendidas pelo nosso sistema de frete</p>
+
+    <section class="container-preto">
+
+        <div class="regioes-blocos">
+
+            <div class="regiao-card">
+                <h3>Norte</h3>
+                <img src="{{url_for('static', filename='assets/norte.jpeg')}}" alt="norte">
+                <button>Selecionar Região</button>
+            </div>
+
+            <div class="regiao-card">
+                <h3>Nordeste</h3>
+                <img src="{{url_for('static', filename='assets/nordeste.jpeg')}}" alt="nordeste">
+                <button>Selecionar Região</button>
+            </div>
+
+            <div class="regiao-card">
+                <h3>Centro-Oeste</h3>
+                <img src="{{url_for('static', filename='assets/centrooeste.jpeg')}}" alt="centro-oeste">
+                <button>Selecionar Região</button>
+            </div>
+
+            <div class="regiao-card">
+                <h3>Sudeste</h3>
+                <img src="{{url_for('static', filename='assets/sudeste.jpeg')}}" alt="sudeste">
+                <button>Selecionar Região</button>
+            </div>
+
+            <div class="regiao-card">
+                <h3>Sul</h3>
+                <img src="{{url_for('static', filename='assets/sul.jpeg')}}" alt="sul">
+                <button>Selecionar Região</button>
+            </div>
+
+            <div class="regiao-card" alt="Exterior🌏">
+                <h3>Exterior🌏</h3>
+                <img src="{{url_for('static', filename='assets/exterior.jpeg')}}" alt="exterior">
+                <a href="{{ url_for('exterior') }}" class="btn-link">
+                <button>Selecionar</button>
+                </a>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>Em parceria com:</p>
+    <div class="logos">
+        <a href="https://www.cesar.school/" target="_blank">
+            <img src="{{ url_for('static', filename='assets/cesar.jpeg') }}" class="icon">
+        </a>
+
+        <a href="https://www.portodigital.org/" target="_blank">
+            <img src="{{ url_for('static', filename='assets/porto.jpeg') }}" class="icon">
+        </a>
+    </div>
+</footer>
+
+
+<script src="{{ url_for('static', filename='animacoes.js') }}"></script>
+
+</body>
+</html>

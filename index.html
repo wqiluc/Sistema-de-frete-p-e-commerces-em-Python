@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Frete E-commerce - Início</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+<header>
+    <img src="{{url_for('static', filename='assets/fretelogo.jpeg')}}" alt="logo FreteX">
+    <nav>
+        <a href="regioes.html">Região</a>
+        <a href="peso.html">Peso dos produtos</a>
+        <a href="regioes.html">Preços</a>
+    </nav>
+
+    <div class="carrinho">🛒</div>
+</header>
+
+<section class="hero">
+    <h1>O Frete Inteligente para o Seu E-commerce 💰</h1>
+    <p>Calcule valores, consulte regiões atendidas e gerencie entregas com facilidade. Criado para simplificar a vida de quem vende online.</p>
+</section>
+
+<section class="section" id="funciona">
+    <h2>Como Funciona o Nosso Sistema de Frete? ❓🤔</h2>
+
+    <p>Nosso sistema calcula o valor do frete baseado em três fatores principais:</p>
+        <ul>Região</ul>
+        <ul>Preço</ul>
+        <ul>Peso</ul>
+
+    <div class="cards">
+        <div class="card">
+            <h3>📍 Região</h3>
+            <p>Definimos faixas regionais para entregar preços claros e previsíveis para o cliente.</p>
+        </div>
+
+        <div class="card">
+            <h3>⚖️ Peso da Entrega</h3>
+            <p>Quanto maior o peso, maior o custo. Calculamos automaticamente para você.</p>
+        </div>
+
+        <div class="card">
+            <h3>🚚 Redução de Tempo</h3>
+            <p>O sistema ajuda a reduzir erros e agilizar o fechamento da compra.</p>
+        </div>
+    </div>
+</section>
+
+<section class="social-section" id="social">
+    <h2>Desenvolvedores do Projeto</h2>
+    <p>Conecte-se com os criadores</p>
+
+    <div class="informacoes-devs">
+
+        <div class="dev-card">
+            <img src="{{url_for('static', filename='assets/paguetti.jpeg')}}" class="dev-photo">
+            <h3>Lucas Paguetti Pereira</h3>
+
+            <div class="social-icons-bg">
+                <a href="https://www.instagram.com/lucpaguetti/" target="_blank">
+                    <img src="{{ url_for('static', filename='assets/insta.jpeg') }}" class="icon">
+                </a>
+
+                <a href="https://www.linkedin.com/in/lucas-paguetti-pereira" target="_blank">
+                    <img src="{{ url_for('static', filename='assets/linkedin.jpeg') }}" class="icon">
+                </a>
+
+                <a href="https://github.com/wqiluc" target="_blank">
+                    <img src="{{ url_for('static', filename='assets/github.jpeg') }}" class="icon">
+                </a>
+
+                <a href="https://discord.com/users/lucaspaguettipereira" target="_blank">
+                    <img src="{{ url_for('static', filename='assets/discord.jpeg') }}" class="icon">
+                </a>
+            </div>
+        </div>
+
+        <div class="dev-card">
+            <img src="{{url_for('static', filename='assets/helama.jpeg')}}" class="dev-photo">
+
+            <h3>Helamã Leone de Lima Procidio</h3>
+
+            <div class="social-icons-bg">
+                <a href="https://www.instagram.com/hl.procidio/" target="_blank">
+                    <img src="{{ url_for('static', filename='assets/insta.jpeg') }}" class="icon">
+                </a>
+
+                <a href="https://www.linkedin.com/in/helamã-procidio-428772367/" target="_blank">
+                    <img src="{{ url_for('static', filename='assets/linkedin.jpeg') }}" class="icon">
+                </a>
+
+                <a href="https://github.com/procidiohelama-star" target="_blank">
+                    <img src="{{ url_for('static', filename='assets/github.jpeg') }}" class="icon">
+                </a>
+                 <a href="https://discord.com/users/helama4896" target="_blank">
+                    <img src="{{ url_for('static', filename='assets/discord.jpeg') }}" class="icon">
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>Em parceria com:</p>
+    <div class="logos">
+        <a href="https://www.cesar.school/" target="_blank">
+            <img src="{{ url_for('static', filename='assets/cesar.jpeg') }}" class="icon">
+        </a>
+
+        <a href="https://www.portodigital.org/" target="_blank">
+            <img src="{{ url_for('static', filename='assets/porto.jpeg') }}" class="icon">
+        </a>
+    </div>
+</footer>
+
+
+<script src="{{ url_for('static', filename='animacoes.js') }}"></script>
+
+</body>
+</html>

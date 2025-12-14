@@ -29,6 +29,13 @@ def regioes():
     rota_carregada("REGIÕES")
     return render_template("regioes.html")
 
+@app.route("/")
+@app.route("/exterior")
+@app.route("/exterior.html")
+def exterior():
+    rota_carregada("EXTERIOR")
+    return render_template("exterior.html")
+
 
 @app.route("/")
 @app.route("/preco")
