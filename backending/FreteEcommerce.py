@@ -5,8 +5,7 @@ acumuladores = {
     "frete_final": 0,
     "total_compra": 0,
     "desconto": 0,
-    "valorfinal_totalgeral": 0,
-}
+    "valorfinal_totalgeral": 0,}
 
 
 def calcular_frete_por_peso(peso):
@@ -25,7 +24,6 @@ def adicional_por_regiao(regiao, frete):
 
 
 def calcular_total_compra(preco_produto, peso_produto, regiao):
-    # Usa o dicionário acumuladores corretamente
     acumuladores["numerocompras"] += 1
 
     frete_base = calcular_frete_por_peso(peso_produto)

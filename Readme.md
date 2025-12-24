@@ -18,14 +18,13 @@ Ideal para integração em plataformas como **e-commerces**, **ERPs**, **sistema
 
 ## 💻⛏️ Tecnologias Utilizadas:
 
-<div align="center" style="display: flex; justify-content: center; align-items: center; gap: 50px; flex-wrap: wrap;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="70">
-    <img src="https://cdn.simpleicons.org/flask/FFFFFF" width="70">
-    <img src="https://cdn.simpleicons.org/html5/E34F26" width="70">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" width="70">
-    <img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="70">
-    <img src="https://cdn.simpleicons.org/json/FFFFFF" width="70">
-</div>
+<p align="center"> 
+<img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white"/> 
+<img src="https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white"/> 
+<img src="https://img.shields.io/badge/-JSON-000000?style=flat-square&logo=json&logoColor=white"/> 
+<img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/> 
+<img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/> 
+<img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
 
 ---
 
@@ -66,7 +65,9 @@ O projeto combina **backend em Python** com **frontend web**, permitindo que o u
     ├── peso.html
     ├── preco.html
     ├── regioes.html
+    ├── exterior.html
     ├── resumo.html
+    ├── carrinho.html
 |static/
     |assets/ 
         ├──**(imagens usadas no site)**

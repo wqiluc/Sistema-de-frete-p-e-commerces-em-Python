@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regiões de Entrega - Exterior🌏</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="exterior">
+        <header>
+            <img src="{{url_for('static', filename='assets/fretelogo.jpeg')}}" alt="logo">
+            <nav>
+                <a href="index.html">Voltar ao Início</a>
+                <a href="regioes.html">Voltar ao Brasil🇧🇷</a>
+            </nav>
+            <div class="carrinho">🛒</div>
+        </header>
+        
+        <br>
+
+    <div text class="seleçao-do-país">
+            <h1>Países do exterior que estamos entregando🌏</h1>
+            <p>Confira os países atendidos pelo nosso sistema de frete</p>
+
+    <section class="container-preto">
+
+        <div class="exterior-blocos">
+
+            <div class="exterior-card">
+                <h3>Estados Unidos🇺🇸</h3>
+                  <img src="{{url_for('static', filename='assets/eua.jpeg')}}" alt="EUA">
+                <button>Selecionar País</button>
+            </div>
+
+            <div class="exterior-card">
+                <h3>Canadá🇨🇦</h3>
+                <img src="{{url_for('static', filename='assets/canada.jpeg')}}" alt="Canadá">
+                <button>Selecionar País</button>
+            </div>
+
+            <div class="exterior-card">
+                <h3>Espanha🇪🇸</h3>
+                <img src="{{url_for('static', filename='assets/espanha.jpeg')}}" alt="Espanha">
+                <button>Selecionar País</button>
+            </div>
+
+            <div class="exterior-card">
+                <h3>França🇫🇷</h3>
+                <img src="{{url_for('static', filename='assets/frança.jpeg')}}" alt="França">
+                <button>Selecionar País</button>
+            </div>
+
+            <div class="exterior-card">
+                <h3>Portugal🇵🇹</h3>
+                <img src="{{url_for('static', filename='assets/portugal.jpeg')}}" alt="Portugal">
+                <button>Selecionar País</button>
+            </div>
+
+            <div class="exterior-card">
+                <h3>Japão🇯🇵</h3>
+                <img src="{{url_for('static', filename='assets/japao.jpeg')}}" alt="Japão">
+                <button>Selecionar País</button>
+            </div>
+    </section>
+</div>
+
+<div class="pais-outro">
+    <p>Gostaria de ter seu país atendido? <br> 
+    Digite o nome e a bandeira do país abaixo e clique em confirmar!</p>
+    <input type="texto" placeholder="Digite o nome do país">
+    <br><br>
+    <button>Confirmar</button>
+</div>
+
+
+<footer>
+    <p>Em parceria com:</p>
+    <div class="logos">
+        <a href="https://www.cesar.school/" target="_blank">
+            <img src="{{ url_for('static', filename='assets/cesar.jpeg') }}" class="icon">
+        </a>
+
+        <a href="https://www.portodigital.org/" target="_blank">
+            <img src="{{ url_for('static', filename='assets/porto.jpeg') }}" class="icon">
+        </a>
+    </div>
+</footer>
+
+
+<script src="{{ url_for('static', filename='animacoes.js') }}"></script>
+
+</body>
+</html>

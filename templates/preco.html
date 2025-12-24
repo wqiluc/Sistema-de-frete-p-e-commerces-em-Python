@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="compras">Produtos para compra</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="compras-container">
+        <header>
+            <img src="{{url_for('static', filename='assets/fretelogo.jpeg')}}" alt="logo">
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="peso.html">Peso dos produtos</a>
+                <a href="regioes.html">Regiões</a>
+            </nav>
+            <div class="carrinho">🛒</div>
+        </header>
+        
+        <br>
+
+        <div text class="hero">
+            <h1>Produtos para compra</h1>
+            <p>Confira os produtos disponíveis para compra</p>
+
+    <section class="container-preto">
+
+        <div class="regioes-blocos">
+
+            <div class="compra-card">
+                <h3>Aspirador</h3>
+                <img src="{{url_for('static', filename='assets/Aspirador_de_po.jpg')}}" alt="Aspirador">
+                <p class="preco">R$ 199,99</p>
+                <button class="botaocompra">Selecionar produto</button>
+            </div>
+
+            <div class="compra-card">
+                <h3>Porta de vidro</h3>
+                <img src="{{url_for('static', filename='assets/porta_de_vidro.jpg')}}" alt="porta">
+                <p class="preco">R$ 899,99</p>
+                <button class="botaocompra">Selecionar produto</button>
+            </div>
+
+            <div class="compra-card">
+                <h3>Caixa de Ferramentas</h3>
+                <img src="{{url_for('static', filename='assets/caixa_de_ferramentas.jpg')}}" alt="Caixa de Ferramentas">
+                <p class="preco">R$ 199,99</p>
+                <button class="botaocompra">Selecionar produto</button>
+            </div>
+
+            <div class="compra-card">
+                <h3>PS5</h3>
+                <img src="{{url_for('static', filename='assets/PS5.png')}}" alt="PS5">
+                <p class="preco">R$ 4.999,99</p>
+                <button class="botaocompra">Selecionar produto</button>
+            </div>
+
+            <div class="compra-card">
+                <h3>Iphone 16</h3>
+                <img src="{{url_for('static', filename='assets/Iphone_16.jfif')}}" alt="Iphone 16">
+                <p class="preco">R$ 5.489,99</p>
+                <button class="botaocompra">Selecionar produto</button>
+            </div>
+
+            <div class="compra-card">
+                <h3>Pelúcia da capivara</h3>
+                <img src="{{url_for('static', filename='assets/Capivara_pelucia.jpg')}}" alt="Pelúcia da capivara">
+                <p class="preco">R$ 89,99</p>
+                <button class="botaocompra">Selecionar produto</button>
+            </div>
+
+            <div class="compra-card">
+                <h3>Boneco de Neve</h3>
+                <img src="{{url_for('static', filename='assets/boneco_de_neve.jfif')}}" alt="Boneco de Neve">
+                <p class="preco">R$ 35,90</p>
+                <button class="botaocompra">Selecionar produto</button>
+            </div>
+
+            <div class="compra-card">
+                <h3>Caixa de Fogos</h3>
+                <img src="{{url_for('static', filename='assets/caixa_de_fogos.jpeg')}}" alt="Caixa de Fogos">
+                <p class="preco">R$ 475,90</p>
+                <button class="botaocompra">Selecionar produto</button>
+            </div>
+
+            <div class="compra-card">
+                <h3>Piscina Inflável</h3>
+                <img src="{{url_for('static', filename='assets/Psicina.jfif')}}" alt="Piscina Inflável">
+                <p class="preco">R$ 146,75</p>
+                <button class="botaocompra">Selecionar produto</button>
+            </div>
+
+            <div class="compra-card">
+                <h3>Cadeira Gamer</h3>
+                <img src="{{url_for('static', filename='assets/cadeira_gamer.jfif')}}" alt="Cadeira Gamer">
+                <p class="preco">R$ 328,40</p>
+                <button class="botaocompra">Selecionar produto</button>
+            </div>
+
+            <div class="compra-card">
+                <h3>PS5</h3>
+                <img src="{{url_for('static', filename='assets/PS5.png')}}" alt="PS5">
+                <p class="preco">R$ 4.999,99</p>
+                <button class="botaocompra">Selecionar produto</button>
+            </div>
+
+            <div class="compra-card">
+                <h3>Iphone 16</h3>
+                <img src="{{url_for('static', filename='assets/Iphone_16.jfif')}}" alt="Iphone 16">
+                <p class="preco">R$ 5.489,99</p>
+                <button class="botaocompra">Selecionar produto</button>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>Em parceria com:</p>
+    <div class="logos">
+        <a href="https://www.cesar.school/" target="_blank">
+            <img src="{{ url_for('static', filename='assets/cesar.jpeg') }}" class="icon">
+        </a>
+
+        <a href="https://www.portodigital.org/" target="_blank">
+            <img src="{{ url_for('static', filename='assets/porto.jpeg') }}" class="icon">
+        </a>
+    </div>
+</footer>
+
+
+<script src="{{ url_for('static', filename='animacoes.js') }}"></script>
+
+</body>
+</html>
